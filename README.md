@@ -37,12 +37,12 @@ If the number generated is lower than the minimum, the minimum is chosen
 instead.
 
 A parabolic function is chosen instead of an exponential or logarithmic decay function
-so that higher valued challenges have a slower drop from their initial value. 
+so that higher valued challenges have a slower drop from their initial value.
 
 # Installation
 
 **REQUIRES: CTFd v1.0.5**
 
 1. Clone this repository to `CTFd/plugins`. It is important that the folder is
-named `DynamicValueChallenge` so CTFd can serve the files in the `assets`
-directory.
+not stored anywhere else, as the asset registrations depends on it being
+directly beneath this folder.  You may however name the folder what ever you like.
